@@ -22,3 +22,7 @@ NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWit
 
 NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
 ```
+
+### Notes
+
+This code was made with garbage collector on, it needs changes in order to use without GC (in iPhone for example), but I mean the changes will be simple to made.
