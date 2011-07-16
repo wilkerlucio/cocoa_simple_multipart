@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define kDefaultBoundary @"-------------CocoaSubtitleMasterBoundary"
+#define kDefaultBoundary @"-------------CocoaSimpleMultipartBoundary"
 
 @interface NSMutableURLRequest (NSMutableURLRequest_MultipartBody)
 
